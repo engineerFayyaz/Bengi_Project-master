@@ -16,9 +16,9 @@ const DetailsOne = React.lazy(() => import("pages/DetailsOne"));
 const Details = React.lazy(() => import("pages/Details"));
 const Desktop190 = React.lazy(() => import("pages/Desktop190"));
 const Desktop189 = React.lazy(() => import("pages/Desktop189"));
-const Desktop188 = React.lazy(() => import("pages/Desktop188"));
+const Movies = React.lazy(() => import("pages/Movies"));
 const Desktop187 = React.lazy(() => import("pages/Desktop187"));
-const Desktop186 = React.lazy(() => import("pages/Desktop186"));
+const HomePage = React.lazy(() => import("pages/HomePage"));
 const SignUpEmail = React.lazy(() => import("pages/SignUpEmail"));
 const SignUp = React.lazy(() => import("pages/SignUp"));
 const SignUpOne = React.lazy(() => import("pages/SignUpOne"));
@@ -36,9 +36,9 @@ const ProjectRoutes = () => {
           <Route path="/signupone" element={<SignUpOne />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signupemail" element={<SignUpEmail />} />
-          <Route path="/desktop186" element={<Desktop186 />} />
+          <Route path="/HomePage" element={<HomePage />} />
           <Route path="/desktop187" element={<Desktop187 />} />
-          <Route path="/desktop188" element={<Desktop188 />} />
+          <Route path="/Movies" element={<Movies />} />
           <Route path="/desktop189" element={<Desktop189 />} />
           <Route path="/desktop190" element={<Desktop190 />} />
           <Route path="/details" element={<Details />} />

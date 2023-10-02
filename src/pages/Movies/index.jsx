@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { Button, Img, List, PagerIndicator, RatingBar, Text } from "components";
 
-const Desktop188Page = () => {
+const Movies = () => {
   const navigate = useNavigate();
 
   return (
@@ -747,4 +747,4 @@ const Desktop188Page = () => {
   );
 };
 
-export default Desktop188Page;
+export default Movies;
